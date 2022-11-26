@@ -1,0 +1,201 @@
+
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 576px) {
+
+  #nav h1{
+    font-size: 20px !important;
+      padding: 20px 0 !important;
+  }
+  .des_para p{
+    font-size: 13px;
+  }
+  .butn a {
+    width: 250px !important;
+    height: 40px !important;
+    font-size: 11px !important;
+}
+.div_des_bg h2{
+  font-size: 20px;
+ 
+}
+.div_des_bg p{
+  font-size: 10px;
+ 
+}
+.titl h4{
+  font-size: 37px;
+}
+.titl p{
+  font-size: 15px;
+}
+.abt_me_des h3{
+  font-size: 30px;
+}
+.abt_me_des p{
+  font-size: 15px;
+}
+.sec_five_righ h2{
+  font-size: 30px;
+  padding-top: 13px;
+}
+.sec_six h3{
+  font-size: 35px;
+}
+.colud_content p{
+  font-size: 16px;
+}
+.bg_blue_dark {
+  font-size: 20px;
+}
+.price_card p {
+  font-size: 18px;
+ 
+}
+.price_card h5{
+  font-size: 26px;
+}
+
+}
+
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+
+  .des_para p{
+    font-size: 18px;
+  }
+    /* =======section third design_beh==== */
+    .img_div2{
+        margin-left: 0rem;
+        padding-top: 24px !important;
+      }
+      .div_des_bg{
+       
+        min-height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        top: -100px;
+       
+    }
+    #nav h1{
+    font-size: 30px;
+      padding: 25px 0;
+  }
+      /* ========second page section top====== */
+
+     .butn a{
+        width: 427px;
+        height: 47px;
+       font-size: 16px;
+       
+    }
+    .div_des_bg h2{
+      font-size: 25px;
+     
+    }
+
+    .div_des_bg{
+      background-image:unset;
+      min-height: unset;
+      background-position: unset;
+      background-repeat: unset;
+      position: unset;
+      top: 0;
+     
+  }
+  .bg_mail_title h2{
+    padding-top: 16px;
+  }
+  #round_img .round_img_div {
+    /* position: relative; */
+    top: 64px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: white;
+    width: fit-content;
+}
+}
+/* // Large devices (desktops, 992px and up) */
+
+@media (max-width: 992px){
+        /* ====section card======= */
+
+#card_sec .cards{
+    position: unset !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 18px; 
+}
+
+/* =========section third design_beh========== */
+#third .design_2{
+    margin: 1rem 0;
+ }
+ #third .design_3{
+    margin: 1rem 0;
+ }
+ #third .design_4{
+    margin: 1rem 0;
+ }
+ .img_div{
+   margin-left: 0rem;
+ }
+ .img_div2{
+   margin-left: 0rem;
+ }
+}
+ 
+
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+
+@media (max-width: 1200px) {
+
+/* ======top section====== */
+
+
+.title_top h1{
+    top: 128px;
+    right: 45px;
+    font-size: 48px;
+  position: absolute;
+}
+.title_top .para1{
+    top: 215px;
+    right: 190px;
+    font-size: 20px;
+}
+.title_top .para2{
+    top: 253px;
+    right: 90px;
+    font-size: 20px;
+}
+
+
+    /* ====section card======= */
+
+#card_sec .cards{
+    position: absolute;
+    width: 285px;
+}
+/* ====section four round img=== */
+#round_img .border_img{
+
+}
+
+}
+ 
+
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+
+@media (max-width: 1400px) {
+
+ }

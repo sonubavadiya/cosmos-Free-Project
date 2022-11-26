@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* background-color: red; */
+}
+a:hover{
+   
+}
+
+/* ===utilities== */
+
+/* ===font size== */
+.fs-15{
+    font-size: 15px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-29{
+    font-size: 29px;
+}
+.fs-35{
+    font-size: 35px;
+}
+.fs-33{
+    font-size: 33px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-41{
+    font-size: 41px;
+}
+.fs-45{
+    font-size: 45px;
+}
+.fs-60{
+    font-size: 60px;
+}
+
+/* =font style== */
+.popi_b{
+    font-family: 'poppinsbold';
+}
+.popi_m{
+    font-family: 'poppinsmedium';
+}
+.popi_r{
+    font-family: 'poppinsregular';
+}
+.popi_s_b{
+    font-family: 'poppinssemibold';
+}
+.pro_r{
+    font-family: 'proxima_novaregular';
+}
+.pro_m{
+    font-family: 'proxima_novamedium';
+}
+.r_r{
+    font-family: 'robotoregular';
+}
+.r_m{
+    font-family: 'robotomedium';
+}
+.r_b{
+    font-family: 'robotobold';
+}
+
+/* ========color====== */
+.ylo{
+    color: #D4AF37;
+}
+
+/* =========bg color======= */
+
+
+
+
+/* ======top section====== */
+
+.bg_img1{
+    background-image: url('../img/Group\ 11.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+.title_top h1{
+    top: 128px;
+    right: 45px;
+  position: absolute;
+}
+.title_top .para1{
+    top: 215px;
+    right: 208px;
+  position: absolute;
+}
+.title_top .para2{
+    top: 253px;
+    right: 100px;
+  position: absolute;
+}
+
+
+
+/* ====section card======= */
+
+#card_sec .cards{
+    position: absolute;
+    width: 344px;
+    height: 436px;
+    box-shadow: 0px 0px 25px #00000029;
+    padding: 17px;
+    background-color: #fff;
+    top: -65px;
+}
+#card_sec .card_hegt{
+   min-height: 450px; 
+}
+#card_sec .btm_content{
+   max-width: 1000px;
+   text-align: center;
+   margin: auto;
+}
+
+/* ============section third design_beh========== */
+
+#third{
+    background-color: #F6F1ED;
+}
+#third .design_2{
+   margin: 5rem 0;
+}
+#third .design_3{
+   margin: 5rem 0;
+}
+#third .design_4{
+   margin: 5rem 0;
+}
+.img_div{
+  padding-top: 25px;
+}
+.img_div2{
+  padding-top: 244px;
+}
+
+
+
+
+/* ================================================================================== */
+                /* =========second page section top=========== */
+/* ========================================================================================= */
+
+#nav h1{
+    
+    padding: 48px 0;
+}
+ .butn a{
+    max-width: 550px;
+    max-height: 63px;
+    background-color: #D1AD32;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+   
+}
+#nav .butn a:hover{
+   background-color: #987d25;
+   transition: all .5s ease-in;
+}
+
+/* =second page section two=== */
+
+ .div_des_bg{
+    background-image: url('../img/Group\ 34.svg');
+    min-height: 155vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -130px;
+   
+}
+.div_des_bg_clr {
+    background-color: #F0F6FF;
+}
+.content_sec_div{
+    max-width: 600px;
+    margin: auto;
+}
+.div_des_bg p{
+    font-family: 'poppinsregular';
+    font-size: 16px;
+}
+
+
+/* =======================section third======== */
+
+
+ .titl h4{
+    font-size: 50px;
+}
+
+/* ==============section four round img================== */
+#round_img .bg_light_round{
+    background-color: #F0F6FF;
+}
+#round_img .round_img_div{
+    position: relative;
+    top: 150px;
+    margin: auto;
+    border-radius: 100%;
+    background-color: white;
+    width: fit-content;
+}
+#round_img .round_img_div img{
+   padding: 30px;
+}
+
+#round_img .abt_me_des{
+   max-width: 975px;
+   margin: 4rem auto;
+   text-align: center;
+}
+
+/* ========section six ==== */
+.cloud{
+    position: relative;
+}
+.colud_content{
+   position: absolute;
+   top: 62px;
+   left: 66px;
+   max-width: 232px;
+    
+}
+.pris_titl{
+    font-size: 45px;
+}
+.price_card{
+    max-width: 986px;
+    height: auto;
+    margin: 0 auto;
+    background: #F7F7FF ;
+    text-align: center;
+}
+.bg_blue_dark{
+background-color: #0C1C33;
+color: white;
+font-size: 25px;
+}
+.price_card p{
+font-size: 30px;
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* ========================================================================================= */
+              /* ========third page section top========== */
+/* ========================================================================================= */
+
+#third_page_top{
+ 
+}
